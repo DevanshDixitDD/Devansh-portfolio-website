@@ -103,6 +103,7 @@ export type BlogPostDocument<Lang extends string = string> =
   >;
 
 type HomepageDocumentDataSlicesSlice =
+  | TechListSlice
   | ExperienceSlice
   | ContentIndexSlice
   | BiographySlice
