@@ -26,7 +26,7 @@ const ContentIndex = async({
 
 
   return (
-    <Bounded
+    <Bounded className="lg:mx-[100px]"
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >

@@ -62,7 +62,7 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
     <section
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
-      // className="overflow-hidden"
+      className="overflow-hidden"
       ref={component}
     >
       <Bounded as="div">
