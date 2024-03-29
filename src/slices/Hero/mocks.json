@@ -1,0 +1,24 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"first_name": {
+				"__TYPE__": "FieldContent",
+				"value": "cool",
+				"type": "Text"
+			},
+			"last_name": {
+				"__TYPE__": "FieldContent",
+				"value": "negative",
+				"type": "Text"
+			},
+			"tagline": {
+				"__TYPE__": "FieldContent",
+				"value": "family",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

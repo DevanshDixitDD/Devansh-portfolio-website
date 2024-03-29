@@ -1,0 +1,58 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "vapor",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"title",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "done",
+							"type": "Text"
+						}
+					],
+					[
+						"time_period",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "slip",
+							"type": "Text"
+						}
+					],
+					[
+						"institution",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "sudden",
+							"type": "Text"
+						}
+					],
+					[
+						"description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Ipsum eiusmod voluptate eu Lorem laborum sint amet. Nulla deserunt veniam irure do non ut in exercitation nostrud nulla cupidatat enim."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
+	}
+]
