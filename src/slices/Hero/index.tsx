@@ -95,7 +95,10 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
             {slice.primary.tagline}
           </span>
         </div>
-          {/* <img src=".public/img.png" alt="img" /> */}
+        <div className="sm: mt-4 md:mt-4">
+          <img src="https://res.cloudinary.com/dupxl0sl7/image/upload/v1711799849/Image_-_Copy_mxujwl.jpg" alt="img" className="rounded-md h-96 m-auto shadow-xl lg:mr-10 shadow-slate-800"/>
+
+        </div>
       </div>
     </Bounded>
   );
