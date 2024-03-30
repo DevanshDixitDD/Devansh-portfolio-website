@@ -22,8 +22,8 @@ export default function ContentList({
   viewMoreText = "Read More",
 }: ContentListProps) {
   const component = useRef(null);
-  const revealRef = useRef(null);
   const itemsRef = useRef<Array<HTMLLIElement | null>>([]);
+  const revealRef = useRef(null);
   const [currentItem, setCurrentItem] = useState<null | number>(null);
 
   const lastMousePos = useRef({ x: 0, y: 0 });
@@ -140,7 +140,7 @@ export default function ContentList({
               }
             }}
             onMouseEnter={() => onMouseEnter(index)}
-            className="list-item opacity-0"
+            className="list-item opacity-0f"
           >
             <a
               href={`${uriPrefix}/${post.uid}`}
@@ -166,7 +166,7 @@ export default function ContentList({
 
         {/* Hover element */}
         <div
-          className="hover-reveal pointer-events-none absolute left-0 top-0 -z-10 h-[320px] w-[220px] rounded-lg bg-cover bg-center opacity-0 transition-[background] duration-300"
+          className="hover-reveal pointer-events-none absolute left-0 top-0 -z-10 h-[320px] w-[220px] rounded-lg bg-cover bg-center opacity-0f transition-[background] duration-300"
           style={{
             backgroundImage:
               currentItem !== null ? `url(${contentImages[currentItem]})` : "",
